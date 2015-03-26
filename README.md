@@ -52,11 +52,15 @@ And you will have an odoo instance running (version 8.0 for now)
 Run this for help:
 
     docker-compose run pgutils
+
 Examples:
 
     docker-compose run pgutils list  # This list databases
+
     docker-compose run pgutils dbsize # Show databases sizes
+
     docker-compose run pgutils drop {dbname} # Drop database {dbname}
+
     docker-compose run pgutils backup {dbname} {filename} # Backup database {dbname} into {filename} (must be in /tmp)
+
     docker-compose run pgutils restore {dbname} {filename} # Restore database {dbname} from {filename} (must be in /tmp)
-    ...
