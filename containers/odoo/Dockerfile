@@ -1,4 +1,4 @@
-FROM grupocitec/odoo
-MAINTAINER GrupoCITEC <ops@grupocitec.com>
+FROM odoo:latest
+MAINTAINER AMT <info@amt.com.cn>
 
 # HERE you can RUN/ADD whatever the project needs

@@ -1,5 +1,5 @@
 postgres:
-  image: xcgd/postgresql
+  image: postgres
   expose:
     - "5432"
 
